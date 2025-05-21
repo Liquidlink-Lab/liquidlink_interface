@@ -1,0 +1,9 @@
+[package]
+name = "LiquidlinkProtocolInterface"
+edition = "2024.beta" 
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "testnet" }
+
+[addresses]
+liquidlink_protocol = "0x0" 
