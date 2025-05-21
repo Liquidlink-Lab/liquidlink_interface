@@ -8,4 +8,4 @@ published-at = "0xda1f5d1e3876f32eed5843e61cbc380907590a4b74f10eb0cbe9ec5a897ff5
 Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "testnet" }
 
 [addresses]
-liquidlink_protocol = "0x0" 
+liquidlink_protocol = "0xda1f5d1e3876f32eed5843e61cbc380907590a4b74f10eb0cbe9ec5a897ff596"
