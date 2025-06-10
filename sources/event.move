@@ -1,5 +1,6 @@
 module liquidlink_protocol::event {
     use iota::event;
+    use std::string::String;
 
     public struct ProfileCreated has copy, drop {
         owner: address,
