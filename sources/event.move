@@ -24,4 +24,21 @@ module liquidlink_protocol::event {
     ) {
         abort 0
     }
+
+    public struct ShareInvitation has copy, drop {
+        invitee: address,
+        inviter: address,
+        amount: u256,
+        action: String
+    }
+    
+    public fun share_invitation(
+        invitee: address,
+        inviter: address,
+        amount: u256, 
+        action: String
+    ){
+         abort 0
+    }
 } 
+
