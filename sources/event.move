@@ -1,6 +1,7 @@
-module liquidlink_protocol::event {
+module liquidlink_protocol::event_interface {
     use iota::event;
-    use std::string::String;
+    use iota::object::ID;
+    use std::ascii::String;
 
     public struct ProfileCreated has copy, drop {
         owner: address,
@@ -10,7 +11,7 @@ module liquidlink_protocol::event {
     public fun profile_created(
         owner: address,
         profile: ID
-    ) {
+    ){
         abort 0
     }
 
@@ -22,7 +23,7 @@ module liquidlink_protocol::event {
     public fun profile_destroyed(
         owner: address,
         profile: ID
-    ) {
+    ){
         abort 0
     }
 
@@ -39,7 +40,6 @@ module liquidlink_protocol::event {
         amount: u256, 
         action: String
     ){
-         abort 0
+        abort 0
     }
-} 
-
+}
