@@ -9,3 +9,4 @@ Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-f
 
 [addresses]
 liquidlink_protocol = "0x8adb2a299e1f4630069d1d95089c1f8d56b3dc39150d0786475eaf39b18e341d"
+share = "0x39341a1c6408ac7fccf5456e39ef3ffc15dead3cb054b45aaf5fa14d9c27760b"
