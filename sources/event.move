@@ -1,4 +1,4 @@
-module liquidlink_protocol::event_interface {
+module liquidlink_protocol::event {
     use iota::event;
     use iota::object::ID;
     use std::ascii::String;

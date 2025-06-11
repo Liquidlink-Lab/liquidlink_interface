@@ -1,4 +1,4 @@
-module liquidlink_protocol::profile_interface {
+module liquidlink_protocol::profile {
     // === Imports ===
     use std::ascii::{Self, String};
     use std::type_name::{Self, TypeName};

@@ -1,4 +1,4 @@
-module liquidlink_protocol::point_interface {
+module liquidlink_protocol::point {
     use std::ascii::String;
     use std::option::{Self, Option};
 
