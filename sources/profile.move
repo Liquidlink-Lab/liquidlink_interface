@@ -16,8 +16,6 @@ module liquidlink_protocol::profile {
     use liquidlink_protocol::point::{borrow_amount, borrow_owner};
     use liquidlink_protocol::event;
 
-    use share::core::{Self, State, AdminCap as ShareAdminCap};
-    use share::core::{is_invitee, get_inviter};
 
     // === Errors ===
     const ERR_REGISTERED_MODULE: u64 = 101;
@@ -199,7 +197,6 @@ module liquidlink_protocol::profile {
         dashboard: &mut PointDashBoard<T>,
         _cap: &AdmincCap,
         req: AddPointRequest<T>,
-        state: &mut State,
     ){
         abort 0
     }
@@ -216,7 +213,6 @@ module liquidlink_protocol::profile {
         dashboard: &mut PointDashBoard<T>,
         _cap: &AdmincCap,
         req: StakePointRequest<T>,
-        state: &mut State,
     ){
         abort 0
     }
