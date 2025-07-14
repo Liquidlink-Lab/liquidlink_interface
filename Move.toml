@@ -2,7 +2,7 @@
 name = "LiquidlinkProtocol"
 edition = "2024.beta"
 version = "0.1.1"
-published-at = "0xa11068ab04b7f8b3936a65d5a13af1036aa0bc5adb631cba56eb9e20cb32bfb9"
+published-at = "0x9732c4e07a4ae6d73a24a0c7b41c2ac9ae2ea43365d2b58061fb65449e228acd"
 
 [dependencies]
 Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "testnet" }
