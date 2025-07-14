@@ -1,7 +1,7 @@
 [package]
 name = "LiquidlinkProtocol"
 edition = "2024.beta"
-version = "0.1.0"
+version = "0.1.1"
 published-at = "0xa11068ab04b7f8b3936a65d5a13af1036aa0bc5adb631cba56eb9e20cb32bfb9"
 
 [dependencies]
